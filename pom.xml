@@ -39,7 +39,7 @@
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
 
     <!-- Default to no additional options (for Java 8). Overridden by a profile. -->
-    <conditionalJavadoc9PlusOptions></conditionalJavadoc9PlusOptions>
+    <conditionalJavadoc9PlusOptions/>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -103,7 +103,7 @@
       <dependency>
         <groupId>com.google.errorprone</groupId>
         <artifactId>error_prone_annotations</artifactId>
-        <version>2.32.0</version>
+        <version>2.33.0</version>
       </dependency>
       <dependency>
         <groupId>com.google.protobuf</groupId>
